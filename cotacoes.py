@@ -12,8 +12,8 @@ auth_token = 'b3ae1761fe882167dd52edfa91869760'
 client = Client(account_sid, auth_token)
 
 number = '+12762925791'
-destino = '+5532998038150'
-destino2 = '+5535998822874'
+destino = '+************'
+destino2 = '+************'
 
 message = client.messages.create(
   body=text_msg,
