@@ -1,12 +1,15 @@
-import tkinter as tk
+# este projeto tem uma interface grafica, por tanto utilizei o tkinter que é uma biblioteca instalada nativamente no python que ajuda com isso
 
-#verificando o tipo de regra de 3 que o usuario quer utilizar
+import tkinter as tk
 
 janela = tk.Tk()
 nome = ""
 
 janela.title("Regra de Três Simples")
 janela.geometry("340x150")
+
+
+#verificando o tipo de regra de 3 que o usuario quer utilizar
 
 texto = tk.Label(janela, text="""Qual regra de três você quer usar? 
 Digite: 'I' para inversa ou 'N' normal """)
@@ -31,7 +34,7 @@ botao.grid(row=3, column=0, padx=0, pady=5)
 janela.mainloop()
 
 
-#calculando a regra de 3
+# Calculando a regra de 3
 
 def calcularnormal():
     valor1 = float(entry1.get())
@@ -51,6 +54,9 @@ def calcularinversa():
 
     resultado_label.config(text="O valor de X é: " + str(resultado))
 
+    
+# Editando a interface grafica
+    
 janela = tk.Tk()
 janela.geometry("340x120")
 
