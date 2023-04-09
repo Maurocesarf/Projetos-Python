@@ -55,7 +55,7 @@ janela = tk.Tk()
 janela.geometry("340x120")
 
 label1 = tk.Label(janela, text="")
-label2 = tk.Label(janela, text="para")
+label2 = tk.Label(janela, text="Para")
 label3 = tk.Label(janela, text="")
 entry1 = tk.Entry(janela)
 entry2 = tk.Entry(janela)
