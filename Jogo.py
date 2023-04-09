@@ -1,10 +1,10 @@
 print('Jogo da balança, cada jogador deve informar um numero,\n a media dos numeros informados será multiplicada\npelo valor fixo de 0,8, ganha o jogador que informar o numero mais proximo do produto.')
 
-qtde_de_jogadores = int(input('Informe quantos jogadores irão participar (minimo 3/maximo 5): '))
+qtde_de_jogadores = int(input('Informe quantos jogadores vão participar (minimo 3/maximo 5): '))
 
 while qtde_de_jogadores != 3 and qtde_de_jogadores != 4 and qtde_de_jogadores != 5:
     print('A quantidade de jogadores informada não é valida para o jogo, informe um numero de 3 a 5 jogadores')
-    qtde_de_jogadores = int(input('Informe quantos jogadores irão participar (minimo 3/maximo 5): '))
+    qtde_de_jogadores = int(input('Informe quantos jogadores vão participar (minimo 3/maximo 5): '))
 
 if qtde_de_jogadores == 3:
     num1 = float(input('Informe o numero do primeiro jogador '))
