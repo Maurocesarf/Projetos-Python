@@ -1,4 +1,4 @@
-print('Jogo da balança, cada jogador deve informar um numero,\n a media dos numeros informados será multiplicada\npelo valor fixo de 0,8, ganha o jogador que informar o numero mais proximo do produto.')
+print('Jogo da concurso de beleza, cada jogador deve informar um numero,\n a media dos numeros informados será multiplicada\npelo valor fixo de 0,8, ganha o jogador que informar o numero mais proximo do produto.')
 
 qtde_de_jogadores = int(input('Informe quantos jogadores vão participar (minimo 3/maximo 5): '))
 
